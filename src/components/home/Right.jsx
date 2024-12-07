@@ -19,6 +19,7 @@ const Right = () => {
                                     width={186}
                                     height={143}
                                     className='w-full rounded-xl object-cover object-center max-lg:h-[180px] lg:h-[208px]'
+                                    priority={false}
                                 />
                                 <div className='flex items-center justify-between mt-4'>
                                     <div>
