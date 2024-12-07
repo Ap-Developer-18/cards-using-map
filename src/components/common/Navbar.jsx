@@ -11,10 +11,11 @@ const Navbar = () => {
         setNavClick(!navClick); // Corrected toggling of navClick state
     }
     return (
-        <nav className='py-4 rounded-[50px] flex items-center justify-between container max-w-[1320px] w-full'>
+        
+        <nav className='py-4 flex items-center justify-between container max-w-[1320px] w-full rounded-xl sticky top-0 backdrop-blur-[20px] z-40'>
             <div className='flex items-center justify-between w-full'>
                 <div className='flex items-center gap-1 xl:gap-14'>
-                    <a href="#"> {/* Removed the invalid 'as="style"' */}
+                    <a href="#" as='style'>
                         <Image src={logo} width={215} height={50.73} className='max-md:w-[138px] max-lg:w-[168px] lg:pr-6 xl:border-r xl:border-dark' alt='logo' priority />
                     </a>
                     <div className='max-w-[236px] w-full h-[44px] lg:h-12 bg-dark rounded-3xl flex items-center gap-2 px-3 max-lg:hidden'>
@@ -23,7 +24,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='flex items-center gap-8'>
-                    <div className={`flex items-center gap-6 md:gap-10 max-md:flex-col max-lg:fixed max-lg:left-0 max-lg:h-[100vh] max-lg:w-full max-lg:justify-center max-lg:bg-[#2929297d] max-md:backdrop-blur-[32px] max-lg:backdrop-blur-[9px] duration-[300ms] z-50 ${navClick ? 'max-lg:-top-[100vh]' : 'max-lg:top-0'}`}>
+                    <div className={`flex items-center gap-6 md:gap-10 max-md:flex-col max-lg:fixed max-lg:left-0 max-lg:h-[100vh] max-lg:w-full max-lg:justify-center max-lg:bg-[#292929] duration-[300ms] z-50 ${navClick ? 'max-lg:-top-[100vh]' : 'max-lg:top-0'}`}>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Home</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Browse</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Details</Link>
