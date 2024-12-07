@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='flex items-center gap-8'>
-                    <div className={`flex items-center gap-6 md:gap-10 max-md:flex-col max-lg:fixed max-lg:left-0 max-lg:h-[100vh] max-lg:w-full max-lg:justify-center max-lg:bg-[#2929297d] max-lg:backdrop-blur-[9px] duration-[300ms] ${navClick ? 'max-lg:-top-[100vh]' : 'max-lg:top-0'}`}>
+                    <div className={`flex items-center gap-6 md:gap-10 max-md:flex-col max-lg:fixed max-lg:left-0 max-lg:h-[100vh] max-lg:w-full max-lg:justify-center max-lg:bg-[#2929297d] max-md:backdrop-blur-[32px] max-lg:backdrop-blur-[9px] duration-[300ms] z-50 ${navClick ? 'max-lg:-top-[100vh]' : 'max-lg:top-0'}`}>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Home</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Browse</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Details</Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div
-                        className='lg:hidden w-9 h-8 flex flex-col items-center justify-center gap-2 z-30'
+                        className='lg:hidden w-9 h-8 flex flex-col items-center justify-center gap-2 z-[60]'
                         onClick={navbarHandler}>
                         <span
                             className={`w-full h-[3px] bg-white transition-transform duration-300 ${navClick ? '' : 'rotate-45 translate-y-2'}`}></span>

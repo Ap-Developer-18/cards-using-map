@@ -5,10 +5,10 @@ import Button from '../common/Button'
 
 const Right = () => {
     return (
-        <div className='mt-10 lg:mt-[60px] p-4 sm:p-5 lg:p-[30px] pb-10 lg:pb-12 rounded-3xl bg-body relative'>
-            <h2 className='text-4xl leading-120 font-bold text-pink'>
+        <div className='mt-10 lg:mt-[60px] p-4 sm:p-5 lg:p-[30px] !pb-10 lg:pb-12 rounded-3xl bg-body relative'>
+            <h2 className='text-custom-xl sm:text-4xl leading-120 font-bold text-pink'>
                 <span className='underline text-white'>Most Popular</span>&nbsp;Right Now</h2>
-            <div className='grid place-content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 w-full mt-7'>
+            <div className='grid place-content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:gap-6 w-full sm:mt-7 mt-3'>
                 {DATA_RIGHT_NOW.map((obj, index) => (
                     <div className='w-full'>
                         <div className='p-3 xl:p-4 bg-dark rounded-2xl'>
@@ -41,7 +41,7 @@ const Right = () => {
                     </div>
                 ))}
             </div>
-            <Button whiteTextName='Discover Popular' className='absolute -bottom-6 left-1/2 -translate-x-1/2' />
+            <Button whiteTextName='Discover Popular' className='text-nowrap absolute -bottom-6 left-1/2 -translate-x-1/2' />
         </div>
     )
 }
