@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({ className, whiteTextName, blackTextName }) => {
+const Button = ({ whiteTextName, blackTextName, className }) => {
   return (
-    <button className={`${whiteTextName ? '' : ''} ${className}`}>
+    <button className={`px-[30px] py-3 rounded-3xl text-sm leading-150 bg-pink text-white ${whiteTextName ? '' : 'bg-transparent border border-dark-light text-dark-light'} ${className}`}>
       {whiteTextName}{blackTextName}
     </button>
   )

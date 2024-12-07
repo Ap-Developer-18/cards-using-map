@@ -10,7 +10,8 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: "24px",
+          DEFAULT: "10px",
+          sm: "24px",
         },
         screens: {
           sm: "576px",
@@ -21,16 +22,6 @@ module.exports = {
         },
       },
       colors: {
-        // blue: "#0d6efd",
-        // indigo: "#6610f2",
-        // purple: "#6f42c1",
-        // pink: "#d63384",
-        // red: "#dc3545",
-        // orange: "#fd7e14",
-        // yellow: "#ffc107",
-        // green: "#198754",
-        // teal: "#20c997",
-        // cyan: "#0dcaf0",
         body: "#1f2122",
         dark: "#27292a",
         "dark-light": "#666666",
@@ -44,11 +35,8 @@ module.exports = {
         150: "150%",
         160: "160%",
       },
-      backgroundImage: {
-        main: "url(/assets/images/png/main.jpg)",
-      },
       fontSize: {
-        "custom-xl": "45px",
+        "custom-xl": "28px",
       },
     },
   },
