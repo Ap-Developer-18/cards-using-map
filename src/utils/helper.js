@@ -2,7 +2,7 @@ const { default: Icons } = require("@/components/icons/Icons");
 
 const DATA_RIGHT_NOW = [
   {
-    imageUrl: "/assets/images/png/popular-one.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-one.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -15,7 +15,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-two.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-two.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -28,7 +28,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-three.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-three.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -41,7 +41,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-four.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-four.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -54,7 +54,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-five.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-five.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -67,7 +67,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-six.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-six.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -80,7 +80,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-seven.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-seven.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
@@ -93,7 +93,7 @@ const DATA_RIGHT_NOW = [
     downloadNumber: "2.3M",
   },
   {
-    imageUrl: "/assets/images/png/popular-eight.jpg", // Use absolute path
+    imageUrl: "/assets/images/webp/popular-eight.webp", // Use absolute path
     mainHeading: "Fortnite",
     subHeading: "Sandbox",
     ratingSvg: (
