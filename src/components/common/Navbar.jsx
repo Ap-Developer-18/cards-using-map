@@ -12,7 +12,7 @@ const Navbar = () => {
     }
     return (
         
-        <nav className='py-4 flex items-center justify-between container max-w-[1320px] w-full rounded-xl sticky top-0 backdrop-blur-[20px] z-40'>
+        <nav className='py-4 flex items-center justify-between container max-w-[1320px] w-full sticky top-0 backdrop-blur-[20px] z-40'>
             <div className='flex items-center justify-between w-full'>
                 <div className='flex items-center gap-1 xl:gap-14'>
                     <a href="#" as='style'>
@@ -29,11 +29,11 @@ const Navbar = () => {
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Browse</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>Details</Link>
                         <Link href='#Home' className='text-sm leading-150 text-dark-light'>About us</Link>
-                        <div className='max-w-[213px] w-full h-[44px] lg:h-12 bg-dark rounded-3xl flex items-center gap-2 px-3 lg:hidden'>
+                        <div className='border border-white max-w-[213px] w-full h-[44px] lg:h-12 bg-dark rounded-3xl flex items-center gap-2 px-3 lg:hidden'>
                             <i className="fa fa-search text-dark-light font-extrabold" aria-hidden="true"></i>
                             <input type="search" name='search' className='text-sm leading-150 placeholder:text-dark-light text-dark-light bg-transparent outline-none border-none' placeholder='Type Something' />
                         </div>
-                        <div className='px-3 py-[7px] lg:py-[10px] bg-dark flex items-center gap-5 rounded-3xl md:hidden'>
+                        <div className='border border-white px-3 py-[7px] lg:py-[10px] bg-dark flex items-center gap-5 rounded-3xl md:hidden'>
                             <span className='text-dark-light text-sm leading-150'>Check Profile Here ...</span>
                             <Image src={profile} width={30} height={30} className='size-[30px] rounded-full' alt='profile' priority />
                         </div>
